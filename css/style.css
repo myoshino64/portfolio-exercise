@@ -20,6 +20,28 @@ body {
     row-gap: 40px;
   }
 
+  .skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skills > article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80%;
+    row-gap: 20px;
+  }
+
+  .skills aside {
+    width: 15vh;
+    height: 15vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
   .education {
     display: flex;
     flex-direction: column;
