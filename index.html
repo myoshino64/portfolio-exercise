@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>class - 7</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <main>
+    <section id="contact" class="contact">
+      <form action="send.php" method="post">
+        <div>
+          <label for="name">Name</label>
+          <input type="text" name="name" placeholder="Your Name">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input name="email" type="email" placeholder="Your Email">
+        </div>
+        <div>
+          <label for="subject">Subject</label>
+          <input type="text" name="subject" placeholder="Subject">
+        </div>
+        <textarea name="message" placeholder="Message"></textarea>
+        <div>
+          <input type="submit" value="Send">
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer id="social-media">
+    <div>
+      <i class="fa-brands fa-linkedin"></i>
+      <i class="fa-brands fa-github"></i>
+      <i class="fa-brands fa-twitter"></i>
+      <i class="fa-solid fa-location-dot"></i>
+      <i class="fa-solid fa-envelope"></i>
+
+    </div>
+  </footer>
+</body>
+</html>
