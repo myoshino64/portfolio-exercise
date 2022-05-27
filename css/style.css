@@ -14,6 +14,35 @@ body {
 }
 
 @media (min-width: 300px) {
+  .contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contact > form {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+  }
+
+  .contact div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contact input, .contact textarea {
+    border: 1px solid gainsboro;
+    padding: 3%;
+  }
+
+  .contact [type="submit"] {
+    background-color: teal;
+    color: whitesmoke;
+    font-size: 18px;
+  }
+
   footer {
     display: flex;
     justify-content: center;
